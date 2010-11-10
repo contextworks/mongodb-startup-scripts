@@ -1,0 +1,4 @@
+* mongod-ubuntu
+
+To use it, copy mongod-ubuntu to /etc/init.d/mongod and run "update-rc.d mongod defaults"
+Now to start mongodb server use command "/etc/init.d/mongod start"
