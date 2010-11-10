@@ -2,3 +2,5 @@
 
 To use it, copy mongod-ubuntu to /etc/init.d/mongod and run "update-rc.d mongod defaults"
 Now to start mongodb server use command "/etc/init.d/mongod start"
+
+This script uses config file located in /etc/mongod.conf, for more information on mongoDB configuration files read here: http://www.mongodb.org/display/DOCS/File+Based+Configuration
